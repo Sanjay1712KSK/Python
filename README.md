@@ -17,6 +17,7 @@ I have created a rule-based chatbot and integrated it with the Twilio API to sen
 3. Create a Virtual Python Environment:
     ```bash
     python -m venv venv # For Mac/Linux/Unix
+    .\venv\Scripts\activate # For Windows
     ```
     
 3. Install the required dependencies:
