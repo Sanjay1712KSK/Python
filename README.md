@@ -53,3 +53,36 @@ $env:TWILIO_ACCOUNT_SID="your_account_sid_here"
 $env:TWILIO_AUTH_TOKEN="your_auth_token_here" # For Windows - (Powershell)
 
 ```
+### *6. Verify Your Number in Twilio Sandbox*
+  Before sending messages via WhatsApp, ensure your number is verified.
+Open a terminal and run:
+
+```bash
+xdg-open "https://www.twilio.com/console"  # Linux
+open "https://www.twilio.com/console"      # macOS
+start https://www.twilio.com/console       # Windows
+
+```
+Go to Messaging → Try It Out → WhatsApp Sandbox.
+Follow Twilio’s instructions to verify your number.
+
+### *7. Running the Chatbot*
+  Once everything is set up, run the chatbot
+Open a terminal and run:
+```bash
+python chatbot.py
+```
+
+The chatbot will now: ✅ Listen for user inputs
+✅ Sends custom WhatsApp messages using Twilio Sandbox number to the verified numbers
+
+
+### *8. Stopping the Chatbot*
+Open a terminal and run:
+```bash
+CTRL + C  # Stop the script in the terminal
+```
+To deactivate the virtual environment:
+```bash
+deactivate
+```
