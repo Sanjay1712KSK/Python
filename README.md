@@ -1,6 +1,8 @@
-# Rule-Based Chatbot with Twilio Integration
+# Rule-Based Chatbot with Twilio Sandbox Integration
 
 I have created a rule-based chatbot and integrated it with the Twilio API to send custom WhatsApp messages to verified numbers.
+
+The project requires Twilio credentials to interact with the Twilio service.
 
 ## Features
 
@@ -14,7 +16,7 @@ I have created a rule-based chatbot and integrated it with the Twilio API to sen
     ```bash
     git clone <repository-url>
     ```
-3. Create a Virtual Python Environment:
+2. Create a Virtual Python Environment:
     ```bash
     python -m venv venv # For Mac/Linux/Unix
     .\venv\Scripts\activate # For Windows
@@ -24,7 +26,12 @@ I have created a rule-based chatbot and integrated it with the Twilio API to sen
     ```bash
     pip install twilio
     ```
-
+4.Set Twilio credentials for use in the Python script
+    (Replace with your actual Twilio SID and Auth Token)
+'''
+    export TWILIO_ACCOUNT_SID="your_account_sid_here"
+    export TWILIO_AUTH_TOKEN="your_auth_token_here"
+'''
 ## Usage
 
 1. Run the chatbot:
