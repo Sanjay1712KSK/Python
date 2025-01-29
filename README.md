@@ -14,11 +14,15 @@ I have created a rule-based chatbot and integrated it with the Twilio API to sen
     ```bash
     git clone <repository-url>
     ```
-2. Install the required dependencies:
+3. Create a Virtual Python Environment:
     ```bash
-    pip install -r requirements.txt
+    python -m venv venv # For Mac/Linux/Unix
     ```
-3. Configure Twilio API credentials in the `config.py` file.
+    
+3. Install the required dependencies:
+    ```bash
+    pip install twilio
+    ```
 
 ## Usage
 
