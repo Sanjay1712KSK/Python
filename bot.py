@@ -12,8 +12,10 @@ def chatbot(usr_in):
         return "dei sombu illa da... Naan thaan da Leo...."
     elif usr_in == "i need to send a whatsapp message":
         return "Number sollu da."
+    elif usr_in == "how to send whatsapp message":
+        return "ask me - i need to send a whatsapp message"
     elif usr_in == "help":
-        return "Enna help pannanum?? seri seri the questions that you can ask me are hello,hi,hey,yo,epdi iruka,hey yo yo puduchathu naan thaan,nee yaaru da,dei sombu,bye..."
+        return "Enna help pannanum?? seri seri the questions that you can ask me are how to send whatsapp message,hello,hi,hey,yo,epdi iruka,hey yo yo puduchathu naan thaan,nee yaaru da,dei sombu,bye..."
     else:
         return "Enna da etho soldra ennaku thaan sariya puriyala... Naan thaan da Leo.... thirupi soldriya da olunga??"
 print("LEO DAS: Vannakam di mapla na thaan rule based chatbot... help nu search pannu enna pathi therunjuko!!...")
