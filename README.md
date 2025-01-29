@@ -70,7 +70,7 @@ Follow Twilio’s instructions to verify your number.
   Once everything is set up, run the chatbot
 Open a terminal and run:
 ```bash
-python chatbot.py
+python funnychatbot.py
 ```
 
 The chatbot will now: ✅ Listen for user inputs
