@@ -1,4 +1,3 @@
-# Ensure bot and twc modules are correctly imported
 import bot
 import twc
 while True:
