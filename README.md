@@ -16,7 +16,7 @@ This is a rule-based chatbot integrated with the Twilio API to send custom Whats
 Open a terminal and run:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Sanjay1712KSK/Python/tree/main
 ```
 ### *2. Change the directory*
 Open a terminal and run:
